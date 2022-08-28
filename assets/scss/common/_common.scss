@@ -1,0 +1,28 @@
+// @use "../../presets" as *;
+// @use "../../mixins" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  color: rgba(white, 0.4);
+  font-size: 40px;
+}
+
+.fa-play-circle,
+.fa-pause-circle {
+  color: rgba(white, 0.4);
+  font-size: 30vh;
+}
+
